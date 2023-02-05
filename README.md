@@ -1,27 +1,38 @@
-# LoginPage
+# Lisbon Bank - Homebanking com Angular :classical_building: :euro:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+### Funcionalidades:
 
-## Development server
++ Página de Login
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
++ Homepage
 
-## Code scaffolding
++ Movimentos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
++ Depositar Fundos
 
-## Build
++ Retirar Fundos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Tecnologias utilizadas :woman_technologist:
 
-## Running unit tests
++ HTML, CSS, Bootstrap, TypeScript e Angular
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+### Sobre o projeto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+O Lisbon Bank é projeto desenvolvido a fim de demonstrar algumas habilidades técnicas quanto à ferramenta Angular.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Neste desafio, importantes pontos foram trabalhados em uma aplicação Angular, como serviços, guardas, validação de credenciais para usuários etc.
+
+#### Para acessar a homepage, inserir os dados de login:
+login: ana
+
+senha: 1234
+
+
+### Telas
+![tela-login](https://user-images.githubusercontent.com/101260452/216828707-d830ddad-5833-488c-8090-68111959336a.png)
+
+![home-page](https://user-images.githubusercontent.com/101260452/216828818-bc323ad4-9afd-449e-adcf-91750f216e10.png)
+
+![movimentos](https://user-images.githubusercontent.com/101260452/216828867-edb36b1b-bb2a-4f22-a731-efeab1801bd8.png)
