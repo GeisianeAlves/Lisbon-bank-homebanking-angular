@@ -1,0 +1,48 @@
+<div class="modal modal-tour position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalTour">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content rounded-4 shadow">
+
+      <div class="modal-body p-5">
+        <h2 class="fw-bold mb-0">Movimentos</h2>
+        <p id="data"> Data: {{day}}/{{month}}/{{year}}</p>         
+       
+        <ul class="d-grid gap-4 my-5 list-unstyled">
+          <li class="d-flex gap-4">
+            <svg class="bi text-muted flex-shrink-0" width="48" height="48"><use xlink:href="#grid-fill"/></svg>
+            <div>
+              <h4 class="mb-0">Saldo</h4>             
+              <h3> <span>${{ total }}</span></h3>              
+            </div>
+          </li>
+
+          <li class="d-flex gap-4">
+            <svg class="bi text-primary flex-shrink-0" width="48" height="48"><use xlink:href="#film"/></svg>
+            <div>
+              <h5 class="mb-0">Depósito</h5>
+              
+              <input class="input-box" type="text" #box placeholder="Digite o valor" name="userName"/>
+              <button class="btn-confirm" (click)="depositar(box.value)">Confirmar</button>
+            </div>
+            
+          </li>
+
+          <li class="d-flex gap-4">
+            <svg class="bi text-warning flex-shrink-0" width="48" height="48"><use xlink:href="#bookmark-star"/></svg>
+            <div>
+              <h5 class="mb-0">Retirada</h5>
+
+              <input class="input-box"  type="text" #box2 placeholder="Digite o valor" name="userName"/>
+              <button class="btn-confirm" (click)="sacar(box2.value)">Confirmar</button>
+          
+            </div>
+          </li>         
+        </ul>                  
+             
+        <button type="button" class="btn btn-lg btn-bottom mt-5 w-100" data-bs-dismiss="modal">Obrigado!</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+

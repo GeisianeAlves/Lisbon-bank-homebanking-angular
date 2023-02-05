@@ -1,0 +1,16 @@
+@import url(../account-balance/account-balance.component.scss);
+
+.btn-confirm{
+    background-color: rgb(84, 87, 84);
+    text-shadow: none;
+}
+h3 span{
+    color: rgb(72, 79, 135);
+}
+.btn-confirm:hover{
+    background-color: aquamarine;
+    color: rgb(83, 81, 81);
+}
+.btn-bottom{
+    background-color: rgb(112, 23, 68);
+}

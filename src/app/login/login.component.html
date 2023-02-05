@@ -1,0 +1,35 @@
+<div class="login-wrapper">
+    
+    <div class="card">
+        <div class="card-body">
+            <form class="form-signin" (ngSubmit)="onSubmit(signInForm)" #signInForm="ngForm">
+                <div id="logo-login">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-bank2" viewBox="0 0 16 16">
+                        <path d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z"/>
+                    </svg>
+                  Lisbon Bank
+                </div>
+           
+                <h2 class="h3 mb-3 font-weight-normal">Conta Particular</h2>
+
+                <label for="inputlogin" class="sr-only">Login </label>
+                <input type="text" id="inputLogin" class="form-control" 
+                name="login" placeholder="Nome do utilizador" ngModel required autofocus>
+
+                <label for="inputPassword" class="sr-only">Código de Acesso</label>
+                <input type="password" id="inputPassword" class="form-control" 
+                name="password" placeholder="Senha" autocomplete="on" ngModel required>
+
+                <button class="btn btn-entrar" type="submit">Entrar</button>
+
+                <div class="alert alert-danger" role="alert" *ngIf="isFormValid">
+                    Por favor, preencha todos os campos.
+                </div>
+
+                <div class="alert alert-danger" role="alert" *ngIf="areCredentialsInvalid">
+                    Usuário ou senha inválida.
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

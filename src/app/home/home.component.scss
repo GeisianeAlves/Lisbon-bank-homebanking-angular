@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Hubballi&family=Inspiration&family=Lato:ital,wght@0,300;1,700&family=Monofett&family=Mystery+Quest&family=Quattrocento&family=Righteous&family=Sarala:wght@400;700&family=Satisfy&display=swap');
+
+.main-container {
+    background: linear-gradient(to right, rgb(18, 15, 13), rgb(65, 28, 9));
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img-left-bottom {
+    position: absolute;
+    left: 150px;
+    bottom: 40px;
+    height: 190px;
+    width: 250px ;
+    
+}
+#img-left-top {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+
+#img-right {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+   // z-index: -1 ;
+}
+
+.info {
+    width: 100%;
+    max-width: 1117px;
+    display: flex;
+    justify-content: space-between;
+}
+.info-title {
+    width: 460px;
+}
+.info-title h1 {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 50px;
+    color: white;
+    width: 400px; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.info-title p {
+    width: 450px;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: 'Lato', sans-serif;
+    //font-weight: 300px;
+}
+
+
+.info-submit {
+    width: 100%;
+    position: relative ;
+}
+.info-submit input {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.7);
+    background:  rgba(255,255,255,0.15);
+    backdrop-filter: blur(45px);
+}
+
+.info-submit input::placeholder {
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.info-submit button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(118, 197, 92);
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    color: rgb(22, 21, 21);
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 12px;
+    bottom: 12px;
+    right: 12px;
+    
+}
+
+.info-card .card {
+    right: 0;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(45px);
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 40px 50px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.info-card .card::before {
+    content: '';
+    border: 2px solid rgba(255,255,255,0.5);
+    border-right: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 20px 0 0 20px;
+}
+
+.info-card .card::after {
+    content: '';
+    border: 2px solid rgba(255,255,255,0.3);
+    border-left: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 0px 20px 20px 0;
+}
+
+.card-title h2 {
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -45px;
+}
+#the {
+    color: yellow;
+    text-shadow: 2px 2px rgb(34, 34, 34);
+    font-size: 50px;
+}
+.card-chip img {
+    height: 40px;
+    width: 63px;
+    margin-bottom: 20px;
+}
+.card-footer div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer .card-footer-info p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.card-footer .card-footer-info p:first-child {
+    margin-bottom: 8px;
+
+}
+
+.footer-text {
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    font-size: 24px;
+    line-height: 18px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+}
+
+.footer-text .footer-text-big {
+    letter-spacing: 0.07em;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+#footer-text-number {
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    
+}
+
+#img-card{
+    position: absolute;
+    width: 220px;
+    height: 120px;
+    opacity: 0.8;
+    top: 100px;
+    right: 20px;
+  
+}
